@@ -1,0 +1,27 @@
+body {
+  color: #878787;
+}
+
+/* box-animation */
+.box-animation {
+  padding-bottom: 50%;
+}
+.box-animation__inner {
+  position: relative;
+  margin-top:200px;
+}
+.box-img {
+  width:40%;
+  position:absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display:block;
+}
+.box-img.target{
+  opacity:0;
+}
+
+/* .sticky{
+  position:fixed;
+  top:200px;
+} */
